@@ -54,6 +54,9 @@ public class MainActivity extends Activity {
 		} else if(index == 2) {
 			intent.setClass(this, FragmentTestActivity.class);
 		} 
+		else if(index == 2) {
+			intent.setClass(this, FragmentTestActivity.class);
+		} 
 		startActivity(intent);
 	}
 
@@ -62,6 +65,7 @@ public class MainActivity extends Activity {
 		data.add("ButtonClick");
 		data.add("SelectExample");
 		data.add("FragmentTest");
+		data.add("HttpTest");
 		return data;
 	}
 	
