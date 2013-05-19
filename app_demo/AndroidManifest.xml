@@ -41,6 +41,8 @@
         <activity
                 android:name=".FragmentTabActivity">
         </activity>
+
+        <activity android:name=".fiftyhacks.Hack01Activity"></activity>
         
     </application>
 
