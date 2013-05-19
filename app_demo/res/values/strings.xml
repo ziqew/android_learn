@@ -2,22 +2,22 @@
 <resources>
 
     <string name="app_name">app demo</string>
-    
+
     <string name="alert_dialog_two_buttons_title">
         Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto
         siwuf cakso dodtos anr koop.
     </string>
     <string name="alert_dialog_ok">OK</string>
     <string name="alert_dialog_cancel">Cancel</string>
-    
+
     <string name="initial_text">Initial text.</string>
-    
+
     <string name="pick_result">Pick a result to send, or BACK to cancel.</string>
     <string name="corky">Corky</string>
     <string name="violet">Violet</string>
     <string name="receive_result_instructions">Press the button to get an activity result, which will be displayed here:</string>
     <string name="receive_result_result">Get Result</string>
-    
+
     <string name="fragment_alert_dialog_support">Fragment/Alert Dialog</string>
 
     <string name="fragment_arguments_support">Fragment/Arguments</string>
@@ -32,7 +32,7 @@
 
     <string name="fragment_context_menu_support">Fragment/Context Menu</string>
     <string name="fragment_context_menu_msg">Fragment populating a context
-            menu; long press the button to see.</string>
+        menu; long press the button to see.</string>
     <string name="long_press">Long press me</string>
 
     <string name="fragment_dialog_support">Fragment/Dialog</string>
@@ -40,9 +40,9 @@
 
     <string name="fragment_dialog_or_activity_support">Fragment/Dialog or Activity</string>
     <string name="fragment_dialog_or_activity_msg">Demonstrates the same fragment
-            being shown as a dialog and embedded inside of an activity.</string>
+        being shown as a dialog and embedded inside of an activity.</string>
     <string name="fragment_dialog_or_activity_inline">Fragment embedded inside
-            of the activity:</string>
+        of the activity:</string>
 
     <string name="fragment_layout_support">Fragment/Layout</string>
 
@@ -56,7 +56,7 @@
 
     <string name="fragment_retain_instance_support">Fragment/Retain Instance</string>
     <string name="fragment_retain_instance_msg">Current progress of retained fragment;
-    restarts if fragment is re-created.</string>
+        restarts if fragment is re-created.</string>
     <string name="restart">Restart</string>
 
     <string name="fragment_receive_result_support">Fragment/Receive Result</string>
@@ -76,7 +76,7 @@
     <string name="fragment_state_pager_support">Fragment/State Pager</string>
 
     <string name="loader_cursor_support">Loader/Cursor</string>
-    
+
     <string name="loader_custom_support">Loader/Custom</string>
 
     <string name="loader_throttle_support">Loader/Throttle</string>
@@ -107,6 +107,15 @@
         \n3. Touch the button below.</string>
     <string name="accessibility_delegate_button">Button</string>
     <string name="accessibility_delegate_custom_text_added">Custom text added via an accessibility delegate.</string>
-    
 
+
+    <string name="tab_wallet">钱包</string>
+    <string name="tab_token">令牌</string>
+    <string name="tab_message">消息中心</string>
+    <string name="tab_more">更多</string>
+
+    <color name="black_font">#000000</color>
+    <string name="dtn_t1">口令将在</string>
+    <string name="dtn_t2">秒后更新</string>
+    <string name="dtn_t4">当前时间:</string>
 </resources>
