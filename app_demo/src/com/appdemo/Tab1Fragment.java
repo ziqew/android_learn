@@ -36,18 +36,18 @@ public class Tab1Fragment extends Fragment {
 		GridView gridView = (GridView) view.findViewById(R.id.home_gridview);
 
 		ArrayList<HashMap<String, Object>> gridItems = new ArrayList<HashMap<String, Object>>();
-		gridItems.add(createItem(R.drawable.barcode, "条码支付"));
-		gridItems.add(createItem(R.drawable.camera, "条码收银"));
-		gridItems.add(createItem(R.drawable.paipaifu, "拍拍付"));
-		gridItems.add(createItem(R.drawable.shake, "摇摇付"));
-		gridItems.add(createItem(R.drawable.woyaofukuan, "我要付款"));
-		gridItems.add(createItem(R.drawable.woyaoshoukuan, "我要收款"));
-		gridItems.add(createItem(R.drawable.soundnfc, "音频支付"));
-		gridItems.add(createItem(R.drawable.fingerprint, "指纹付"));
-		gridItems.add(createItem(R.drawable.face, "人脸付"));
-		gridItems.add(createItem(R.drawable.consume, "消费记录"));
-		gridItems.add(createItem(R.drawable.fee, "收款记录"));
-		gridItems.add(createItem(R.drawable.balance, "余额查询"));
+		gridItems.add(createItem(R.drawable.barcode, "条码"));
+		gridItems.add(createItem(R.drawable.camera, "扫描"));
+		gridItems.add(createItem(R.drawable.paipai, "拍照"));
+		gridItems.add(createItem(R.drawable.shake, "晃动"));
+		gridItems.add(createItem(R.drawable.fu, "付出"));
+		gridItems.add(createItem(R.drawable.shou, "收如"));
+		gridItems.add(createItem(R.drawable.sound, "声音"));
+		gridItems.add(createItem(R.drawable.fingerprint, "指纹"));
+		gridItems.add(createItem(R.drawable.face, "人脸"));
+		gridItems.add(createItem(R.drawable.consume, "消费"));
+		gridItems.add(createItem(R.drawable.fee, "费用"));
+		gridItems.add(createItem(R.drawable.balance, "查询"));
 		SimpleAdapter saImageItems = new SimpleAdapter(
 				Tab1Fragment.this.getActivity(), gridItems, R.layout.grid_item,
 				new String[] { "ItemImage", "ItemText" }, new int[] {
