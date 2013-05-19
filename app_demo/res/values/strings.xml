@@ -118,4 +118,8 @@
     <string name="dtn_t1">口令将在</string>
     <string name="dtn_t2">秒后更新</string>
     <string name="dtn_t4">当前时间:</string>
+
+    <string name="activity_main_click_me">Click me</string>
+    <string name="show_map">Show map</string>
+    <string name="footer_text">2012 - NTM</string>
 </resources>
