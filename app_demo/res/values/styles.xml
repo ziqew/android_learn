@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme.One" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyTheme.Two" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/window_bg</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

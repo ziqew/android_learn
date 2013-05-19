@@ -1,4 +1,4 @@
-package com.wenwei;
+package com.appdemo;
 
 import java.util.ArrayList;
 import java.util.List;

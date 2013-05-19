@@ -1,4 +1,4 @@
-package com.wenwei;
+package com.appdemo;
 
 import android.app.Activity;
 import android.content.Intent;

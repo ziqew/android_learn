@@ -1,4 +1,4 @@
-package com.wenwei;
+package com.appdemo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,24 +47,32 @@ public class MainActivity extends Activity {
 	// according to the index is show activity
 	private void intentActivity(int index) {
 		Intent intent = new Intent();
-		if(index == 0) {
-			intent.setClass(this, BtnClickActivity.class);
-		} else if(index == 1) {
-			intent.setClass(this, SelectExampleActivity.class);
-		} else if(index == 2) {
-			intent.setClass(this, FragmentTestActivity.class);
-		} 
-		else if(index == 2) {
-			intent.setClass(this, FragmentTestActivity.class);
-		} 
+
+
+
+        if(index == 0) {
+            intent.setClass(this, BtnClickActivity.class);
+        } else if(index == 1) {
+            intent.setClass(this, SelectExampleActivity.class);
+        } else if(index == 2) {
+            intent.setClass(this, FragmentTestActivity.class);
+        } else if(index == 3) {
+            intent.setClass(this, NotificationActivity.class);
+        } else if(index == 4) {
+            intent.setClass(this, FragmentTabActivity.class);
+        }  else if(index == 5) {
+            intent.setClass(this, HttpTestActivity.class);
+        }
 		startActivity(intent);
 	}
 
 	private List<String> getData() {
 		List<String> data = new ArrayList<String>();
-		data.add("ButtonClick");
-		data.add("SelectExample");
-		data.add("FragmentTest");
+        data.add("ButtonClick");
+        data.add("SelectExample");
+        data.add("FragmentTest");
+        data.add("Notification");
+        data.add("TabActivity");
 		data.add("HttpTest");
 		return data;
 	}

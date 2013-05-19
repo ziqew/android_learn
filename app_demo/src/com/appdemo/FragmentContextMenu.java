@@ -1,4 +1,4 @@
-package com.wenwei;
+package com.appdemo;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
