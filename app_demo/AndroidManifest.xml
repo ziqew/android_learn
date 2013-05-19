@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wenwei"
+    package="com.appdemo"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -30,7 +30,17 @@
          <activity
             android:name=".FragmentTestActivity">
         </activity>
-         <activity android:name="BtnClickInvokeActivity"></activity>
+
+         <activity android:name="BtnClickInvokeActivity"/>
+
+
+        <activity
+                android:name=".NotificationActivity">
+        </activity>
+
+        <activity
+                android:name=".FragmentTabActivity">
+        </activity>
         
     </application>
 
