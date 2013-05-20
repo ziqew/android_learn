@@ -41,8 +41,18 @@
         <activity
                 android:name=".FragmentTabActivity">
         </activity>
+        
+        <activity
+                android:name=".HttpTestActivity">
+        </activity>
 
         <activity android:name=".fiftyhacks.Hack01Activity"></activity>
+        
+        <activity android:name=".fiftyhacks.Hack02Activity"></activity>
+        
+        <activity android:name=".fiftyhacks.Hack07Activity"></activity>
+
+        <activity android:name=".fiftyhacks.Hack08Activity" android:screenOrientation="portrait" ></activity>
         
     </application>
 
