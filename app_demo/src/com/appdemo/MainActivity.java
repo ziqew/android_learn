@@ -2,15 +2,21 @@ package com.appdemo;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.AdapterView.OnItemClickListener;
+
+import com.appdemo.fiftyhacks.Hack01Activity;
+import com.appdemo.fiftyhacks.Hack02Activity;
+import com.appdemo.fiftyhacks.Hack07Activity;
+import com.appdemo.fiftyhacks.Hack08Activity;
 
 public class MainActivity extends Activity {
 	
@@ -60,8 +66,16 @@ public class MainActivity extends Activity {
             intent.setClass(this, NotificationActivity.class);
         } else if(index == 4) {
             intent.setClass(this, FragmentTabActivity.class);
-        }  else if(index == 5) {
+        } else if(index == 5) {
             intent.setClass(this, HttpTestActivity.class);
+        }else if(index == 6) {
+            intent.setClass(this, Hack01Activity.class);
+        }else if(index == 7) {
+            intent.setClass(this, Hack02Activity.class);
+        }else if(index == 8) {
+            intent.setClass(this, Hack07Activity.class);
+        }else if(index == 9) {
+            intent.setClass(this, Hack08Activity.class);
         }
 		startActivity(intent);
 	}
@@ -74,6 +88,10 @@ public class MainActivity extends Activity {
         data.add("Notification");
         data.add("TabActivity");
 		data.add("HttpTest");
+		data.add("Hack01");
+		data.add("Hack02");
+		data.add("Hack07");
+		data.add("Hack08");
 		return data;
 	}
 	
